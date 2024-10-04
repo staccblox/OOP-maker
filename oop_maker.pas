@@ -6,7 +6,6 @@ var
 	attributes: int;
 var
 	methods: int;
-
 begin
    writeln("(creates js class)");
    readkey;
@@ -21,4 +20,4 @@ begin
    for i:= 1 to attributes do writeln("     attribute", i, "() {}");
    for i:= 1 to methods do writeln("     method", i, "() {}");
    writeln("}");
-end. 
+end.
