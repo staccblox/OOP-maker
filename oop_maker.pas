@@ -17,7 +17,7 @@ begin
    readLn(input, methods);
    writeln("...");
    writeln(class_name, " {");
-   for i:= 1 to attributes do writeln("     a", i, "() {}");
+   for i:= 1 to attributes do writeln("     a", i, ";");
    for i:= 1 to methods do writeln("     m", i, "() {}");
    writeln("}");
 end.
